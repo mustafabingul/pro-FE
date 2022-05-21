@@ -1,0 +1,11 @@
+.hotel-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  flex-direction: column;
+
+  .seachbar {
+    display: flex;
+    justify-content: center;
+  }
+}

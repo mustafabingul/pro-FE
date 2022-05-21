@@ -1,0 +1,4 @@
+<div class="hotel-wrapper">
+  <searchbar (inputChanged)="onInputChange($event)"  class="seachbar"></searchbar>
+  <hotel-table [tableData]="tableData" [filteredData]="filter"></hotel-table>
+</div>
